@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="../HTML_CSS_FinalHw/images/Mylogo.ico" /> 
+  <meta name="description" content="六角學院多頁式網站作業" />
+  <meta name="keywords" content="六角學院作業, html作業, html學員作業">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>多頁式網頁練習</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="wrapper">
+    <!-- header -->
+    <header id="header">
+      <div class="logo">
+        <h1><a href="https://www.hexschool.com/" target="_blank" title="Hex school">六角學院</a></h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a class="index" href="index.html">首頁</a></li>
+          <li><a href="course.html">課程</a></li>
+          <li><a href="faq.html">問答</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- content wrap -->
+    <main id="content">
+      <!-- banner content -->
+      <div class="banner">
+        <img class="background-image" src="./images/index_images/index_banner.png" alt="index_banner" width="1024" height="560">
+        <h2 class="welcome">歡迎來到<mark>六角學院</mark><br>帶你一起攻略前端設計</h2>
+        <div class="btn-signup">
+          <a href="#">馬上去註冊
+            <img class="arrow" src="./images/index_images/arrow.png" alt="arrow" width="16" height="16">
+          </a>
+        </div>
+      </div>
+      <!-- course select -->
+      <h3 class="course-selected">
+        <p class="select">精選課程</p>
+        <p class="help-you">幫助你拿到前端工程師的門票</p>
+        <div class="btn-more-classes">
+          <a href="#">更多課程</a>
+        </div>
+      </h3>
+      <!-- courses list -->
+      <ul class="course">
+        <li class="course-list">
+          <img src="./images/index_images/html5.png" alt="HTML 5" width="92" height="135">
+          <article>Html 5 基礎教學</article>
+          <p>主流前端網站設計的基礎，透過實際<br>的範例，了解正確的網站開發流程。</p>
+        </li>
+        <li class="course-list">
+          <img src="./images/index_images/rwd.png" alt="RWD" width="93" height="135">
+          <article>響應式網站設計</article>
+          <p>六角學院提供業界響應式開發方法，<br>讓學生了解完善的行動版開發觀念。</p>
+        </li>
+        <li class="course-list">
+          <img src="./images/index_images/jQuery.png" alt="jQuery" width="127" height="135">
+          <article>jQuery 實戰教學</article>
+          <p>分為四大主題：變數的使用、操作<br>DOM、基本數學運算和套件運用。</p>
+        </li>
+      </ul>
+      <!-- compare -->
+      <h3 class="compare">
+        <p class="course-compare">課程比較</p>
+        <p class="course-difference">線上課程與實體課程的差異</p>
+      </h3>
+      <!-- compare table -->
+      <table>
+        <tr>
+          <th>項目</th>
+          <th class="second-column-layout">六角學院 線上課程</th>
+          <th>一般線上課程</th>
+          <th class="fourth-column-layout">一般實體課程</th>
+        </tr>
+        <tr>
+          <td>費用</td>
+          <td><mark>較低</mark></td>
+          <td><mark>較低</mark></td>
+          <td class="fourth-column-layout">較高</td>
+        </tr>
+        <tr>
+          <td>學習效果</td>
+          <td>一般</td>
+          <td>較低</td>
+          <td class="fourth-column-layout"><mark>很好</mark></td>
+        </tr>
+        <tr>
+          <td>Code review</td>
+          <td><mark>有</mark></td>
+          <td>無</td>
+          <td class="fourth-column-layout">不一定</td>
+        </tr>
+        <tr>
+          <td class="first-column-layout">課程更新速度</td>
+          <td><mark>普通</mark></td>
+          <td><mark>普通</mark></td>
+          <td class="fourth-column-layout">較慢</td>
+        </tr>
+        <tr>
+          <td>多次複習</td>
+          <td><mark>可</mark></td>
+          <td><mark>可</mark></td>
+          <td class="fourth-column-layout">不可</td>
+        </tr>
+        <tr>
+          <td>字幕</td>
+          <td><mark>有</mark></td>
+          <td>不一定</td>
+          <td class="fourth-column-layout">板書</td>
+        </tr>
+      </table>
+      <!-- form -->
+      <form action="index.html">
+        <div class="form_text">
+          <p>你就是六角的下一個學生！</p>
+          <br>
+          <p>快留下資料讓我們認識你吧</p>
+        </div>
+        <div class="form_input">
+          <input type="text" placeholder="你的名字是？" name="person">
+          <input type="text" placeholder="example@mail.com.tw" name="mail">
+          <input type="submit" value="送　出">
+        </div>
+      </form>
+    </main>
+    <!-- footer -->
+    <footer id="footer">
+      <div class="footer_logo">
+        <h5><a href="https://www.hexschool.com/" target="_blank" title="Hex school">六角學院</a></h5>
+        <span class="copyright">© 2022 hexschool</span>
+      </div>
+      <div class="link">
+        <ul class="social-media">
+          <li class="facebook"><a href="https://www.facebook.com/hexschool/" target="_blank" title="facecbook">facebook</a></li>
+          <li class="twitter"><a href="https://twitter.com/hexschool1" target="_blank" title="twitter">twitter</a></li>
+          <li class="instagram"><a href="https://www.instagram.com/hexschool/" target="_blank" title="instagram">instagram</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
