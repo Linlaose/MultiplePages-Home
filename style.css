@@ -286,6 +286,7 @@ h5 a{
   padding: 17px 35px 14px 39px;
   text-decoration: none;
   color: #ffffff;
+  border: 2px solid transparent;
 }
 
 .btn-signup a:hover{
@@ -554,6 +555,7 @@ input[type=submit]:hover {
   padding: 17px 39px;
   text-decoration: none;
   color: #ffffff;
+  border: 2px solid transparent;
 }
 
 .btn-goToclass a:hover{
